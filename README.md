@@ -1,3 +1,0 @@
-
-bitrho's blog 
-
