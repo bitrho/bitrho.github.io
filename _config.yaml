@@ -4,6 +4,7 @@ permalink: /:title
 
 url:
 baseurl:
+name: bitrho
 
 redcarpet:
   extensions: [strikethrough, tables]
