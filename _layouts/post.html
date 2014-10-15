@@ -5,20 +5,5 @@ layout: default
 <article class="single row gutters">
   <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
   <h2>{{ page.title }}</h2>
-
   {{ content }}
-
-   <!-- duoshuo -->
-  <div class="ds-thread"></div>
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"e2mc"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0] 
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
 </article>
